@@ -1,0 +1,63 @@
+/* Reset some default styles to have a consistent base */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #2499ed;
+    font-family:  sans-serif; /* Choose your preferred font-family */
+}
+
+/* Style the header */
+header {
+    background-color: rgb(167, 198, 211);
+    color: rgb(18, 102, 158);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main content area */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(36, 110, 156);
+    box-shadow: 0 2px 4px rgba(193, 26, 26, 0.1);
+}
+
+/* Style headings */
+h1 {
+    font-size: 28px;
+    color: rgb(19, 63, 87);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(38, 104, 127);
+    margin-bottom: 10px;
+}
+
+/* Style paragraphs and links */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(40, 73, 102);
+}
+
+/* Style Photo */
+img {
+    width: 500px; height: 200px; border: 1px solid black; margin: 10px; padding: 5px; filter: grayscale(50%);
+}
+
+
+a {
+    color: #567f9d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
